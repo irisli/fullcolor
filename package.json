@@ -1,0 +1,34 @@
+{
+  "name": "fullcolor",
+  "version": "0.0.0",
+  "description": "24-bit terminal colors for JavaScript",
+  "main": "fullcolor.js",
+  "scripts": {
+    "test": "echo 'meow'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irisli/fullcolor.git"
+  },
+  "keywords": [
+    "full",
+    "color",
+    "24-bit",
+    "24bit",
+    "rgb",
+    "terminal",
+    "ansi",
+    "command line",
+    "escape",
+    "nodeps",
+    "light",
+    "lightweight",
+    "minimalist"
+  ],
+  "author": "Iris Li",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/irisli/fullcolor/issues"
+  },
+  "homepage": "https://github.com/irisli/fullcolor#readme"
+}
