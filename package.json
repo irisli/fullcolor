@@ -1,10 +1,10 @@
 {
   "name": "fullcolor",
-  "version": "0.0.0",
-  "description": "24-bit terminal colors for JavaScript",
+  "version": "0.1.0",
+  "description": "Full 24-bit terminal colors for Node.js (no frills, no dependencies)",
   "main": "fullcolor.js",
   "scripts": {
-    "test": "echo 'meow'"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,9 @@
   "keywords": [
     "full",
     "color",
+    "truecolor",
+    "truecolors",
+    "fullcolors",
     "24-bit",
     "24bit",
     "rgb",
