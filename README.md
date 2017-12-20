@@ -19,7 +19,7 @@ const fullcolor = require('fullcolor');
 ## API
 The `fullcolor` function simply adds escape sequences and returns the text as a string. The first argument is always the text you want to color. This also only changes the text color and not the background.
 
-## Instal
+## Install
 
 ### fullcolor(text, colorString)
 As of right now, only hex values are accepted for colorString.
@@ -58,18 +58,18 @@ console.log(fullcolor('TEXT GOES HERE', 102, 204, 255))
 // Also, a GitHub star is appreciated ;)
 ```
 
-But if you do want a lightweight abstraction that does strong typechecking, then this module might be for you!
+But if you do want a lightweight abstraction, then this module might be for you!
 
-## Clean module
-Module has no side effects. No state. No singletons. Does not monkeypatch or mutate anything.
+## Simple and clean
+No side effects. No state. No singletons. Does not monkeypatch or mutate anything.
 
 ## No dependencies. Ever.
 No dependencies. Never will have dependencies. Except of course JavaScript. This might even work in the browser as-is (this doesn't even use Node.js standard libraries), but I'm not sure how useful that'll be.
 
-Why? This is a simple tool that adds a few characters to a string. Thats it. Dependencies shouldn't be needed for something this simple. Each dependency is a potential security liability and another thing to maintain.
+Why? This is a simple tool that adds a few characters to a string. That's it. Dependencies shouldn't be needed for something this simple. Each dependency is a potential security liability and another thing to maintain.
 
 ## Versioning
-Will follow semver. Major version every time a breaking change is introduced. Minor version on new features. I pinky promise that changes within a major version (e.g. `2.x` and `2.y`; `y > x`) will be backwards compatible/
+Will follow semver. Major version every time a breaking change is introduced. Minor version on new features. Changes within a major version (e.g. `2.x` and `2.y`; `y > x`) will be backward compatible.
 
 ## License
 Licensed under Apache-2.0. Written and copyright by Iris Li.
