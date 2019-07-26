@@ -1,6 +1,6 @@
 {
   "name": "fullcolor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Full 24-bit terminal colors for Node.js (no frills, no dependencies)",
   "main": "fullcolor.js",
   "scripts": {
